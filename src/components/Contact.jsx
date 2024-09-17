@@ -6,6 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
+    const linkStyle =
+    "mx-2 flex flex-row items-center my-2 hover:text-yellow-200";
   return (
     <>
       <section id="contact" className="bg-black px-2 text-pink-500 md:p-5 my-5">
